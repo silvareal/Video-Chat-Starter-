@@ -1,5 +1,17 @@
 {
   "name": "video-chat-starter",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "dev": "nodeman server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/silvareal/Video-Chat-Starter-.git",
+  "author": "sylvernus akubo <akubosylvernus@gmail.com>",
+  "license": "MIT"
 }
